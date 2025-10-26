@@ -14,11 +14,10 @@
 
 @media (min-width: 900px) {
     .left-sidebar-hidden {
-        width: 0 !important;
-        min-width: 0 !important;
+        width: 0;
+        min-width: 0;
         overflow: hidden;
         opacity: 0;
-        border-right: none;
     }
 
     .left-sidebar {
@@ -73,12 +72,12 @@
         border: none;
         filter: var(--drop-shadow);
         border-right: 1px solid var(--border-1);
-        transition: left 0.3s ease;
+        transition: left 0.5s ease;
     }
 
     .left-sidebar-hidden {
         left: -100%;
-        transition: left 0.3s ease;
+        transition: left 0.5s ease;
     }
 
     .resize-handle {
